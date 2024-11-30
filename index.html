@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Bar</title>
+</head>
+<body>
+  <input type="text" id="url-bar" name="url-bar">
+  <button id="go-button" onclick="go()">Go!</button>
+</body>
+</html>
+
+<script type="text/javascript">
+  function go() {
+    window.location.href = document.getElementById("url-bar").value;
+  }
+</script>
